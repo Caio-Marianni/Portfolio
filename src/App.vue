@@ -6,19 +6,23 @@ import Navbar from "./components/Navbar.vue";
 </script>
 
 <template>
-  <!-- Navbar -->
-  <div className=" md:w-2/6 m-4 py-4 md:m-auto mt-10 px-5 rounded-[20px] border-black border-2 mb-2">
-    <Navbar />
-  </div>
-  <!-- Content -->
-  <div className="flex gap-3 md:w-2/6 mx-4 md:m-auto rounded-[20px]">
-    <!-- Personal Card -->
-    <div className="w-1/2 pb-4 rounded-[20px] border-black border-2 overflow-hidden">
-      <PersonalCard />
+  <div class="h-full">
+
+    <!-- Navbar -->
+    <div className="md:w-5/6 lg:w-8/12 m-4 py-4 mt-10 md:m-auto px-5 rounded-[20px] border-black border-2 mb-2">
+      <Navbar />
     </div>
-    <!-- Content Place -->
-    <div className="h-32 w-full rounded-[20px] border-black border-2">
-      <RouterView />
+    <!-- Content -->
+    <div className="relative flex gap-3 md:gap-4 md:w-5/6 lg:w-8/12 mx-4 md:my-4 md:m-auto rounded-[20px]">
+      <!-- Personal Card -->
+      <div className="w-1/2">
+        <PersonalCard />
+      </div>
+      <!-- Content Place -->
+      <div className="h-auto w-full py-4 px-4 rounded-[20px] border-black border-2">
+        <h2 class="text-center">proficiency</h2>
+        <RouterView />
+      </div>
     </div>
   </div>
 </template>
