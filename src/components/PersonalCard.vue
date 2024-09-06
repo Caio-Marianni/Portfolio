@@ -1,6 +1,6 @@
 <template>
   <div
-    class="font-terFont h-auto sticky top-4 pb-4 rounded-[20px] max-w-96 border-black border-2 overflow-hidden"
+    class="font-terFont h-auto sticky top-4 pb-4 rounded-[20px] max-w-96 border-black border-2 overflow-hidden bg-slate-200"
   >
     <!-- Banner part -->
     <div>
