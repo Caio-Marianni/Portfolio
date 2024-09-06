@@ -5,7 +5,13 @@ export default {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        mainFont: ["Orbitron", "sans-serif"],
+        secFont: ["SUSE", "sans-serif"],
+        terFont: ["Audiowide", "sans-serif"],
+      },
+    },
   },
   plugins: [],
 }
