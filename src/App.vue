@@ -11,7 +11,7 @@ import Navbar from "./components/Navbar.vue";
     <Background />
   </div>
   <!-- Main Content -->
-  <div class="absolute h-full z-10">
+  <div class="absolute h-full w-full z-10">
     <!-- Navbar -->
     <div className="relative md:w-11/12 lg:w-8/12 m-auto mx-4 md:m-auto z-10">
       <Navbar />
@@ -23,7 +23,7 @@ import Navbar from "./components/Navbar.vue";
         <PersonalCard />
       </div>
       <!-- Content Place -->
-      <div className="h-auto w-full rounded-[20px] border-black border-2 overflow-hidden">
+      <div className="h-auto w-full rounded-[20px] overflow-hidden">
         <RouterView />
       </div>
     </div>

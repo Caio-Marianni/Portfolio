@@ -6,7 +6,7 @@
     <h2 class="text-center font-mainFont -mb-2 opacity-70 text-orange-200">proficiency</h2>
     <div class="flex flex-row items-center w-full">
       <div class="w-full h-3 rounded-full bg-orange-400"></div>
-      <h1 class="my-3 text-6xl mx-6 font-terFont text-[#ff3c23]">Criativity</h1>
+      <h1 class="my-3 text-6xl mx-6 font-terFont text-[#ff3c23]">Designer</h1>
       <div class="w-full h-3 rounded-full bg-orange-400"></div>
     </div>
     <!-- Icons -->
@@ -34,12 +34,7 @@
   <!-- Content -->
   <div class="h-full pt-16 py-4 px-4 text-center font-secFont text-xl bg-gray-100">
     <p>
-      My goal is to deliver creative, innovative, and unique solutions, always
-      focusing on achieving the best results. I strive to find ways to solve
-      your problem, enhancing user experience and capturing attention in every
-      project. <br />
-      <br />To learn more about the areas I work in, explore the pages available
-      in the navigation bar.
+descriçao
     </p>
   </div>
 </template>

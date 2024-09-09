@@ -1,12 +1,18 @@
+<script setup lang="ts">
+import Projects from '@/components/Projects.vue';
+</script>
+
 <template>
   <!-- Title -->
   <div
     class="relative flex flex-col justify-center items-center py-4 px-4 pt-4 bg-gray-800 shadow-2xl"
   >
-    <h2 class="text-center font-mainFont -mb-2 opacity-70 text-orange-200">proficiency</h2>
+    <h2 class="text-center font-mainFont -mb-2 opacity-70 text-orange-200">
+      proficiency
+    </h2>
     <div class="flex flex-row items-center w-full">
       <div class="w-full h-3 rounded-full bg-orange-400"></div>
-      <h1 class="my-3 text-6xl mx-6 font-terFont text-[#ff3c23]">Criativity</h1>
+      <h1 class="my-3 text-6xl mx-6 font-terFont text-[#ff3c23]">Programing</h1>
       <div class="w-full h-3 rounded-full bg-orange-400"></div>
     </div>
     <!-- Icons -->
@@ -21,7 +27,7 @@
         <img src="../assets/code.png" alt="" />
       </div>
       <div class="w-10 h-10 border-2 border-orange-600">
-        <img class="w-10 h-10 object-cover" src="../assets/rekord.png" alt="" />
+        <img src="../assets/rekord.png" alt="" />
       </div>
     </div>
     <!-- final effect -->
@@ -32,14 +38,17 @@
     />
   </div>
   <!-- Content -->
-  <div class="h-full pt-16 py-4 px-4 text-center font-secFont text-xl bg-gray-100">
-    <p>
-      My goal is to deliver creative, innovative, and unique solutions, always
-      focusing on achieving the best results. I strive to find ways to solve
-      your problem, enhancing user experience and capturing attention in every
-      project. <br />
-      <br />To learn more about the areas I work in, explore the pages available
-      in the navigation bar.
+  <div
+    class="h-full pt-10 py-4 px-4 text-center font-secFont text-xl bg-gray-100"
+  >
+    <p class="opacity-70 text-base">
+      I develop programming solutions that combine design innovation with a
+      clean and efficient code structure, always analyzing the best trends in
+      current technologies.
+      <br> My goal is to capture the user's attention from the
+      first interaction, delivering results that are both visually appealing and
+      technically flawless.
     </p>
+    <Projects />
   </div>
 </template>
