@@ -1,6 +1,6 @@
 <template>
   <div
-    class="font-terFont h-auto sticky top-4 pb-4 rounded-[20px] max-w-96 border-black border-2 overflow-hidden bg-slate-200"
+    class="font-terFont text-white h-auto sticky top-4 pb-4 rounded-[20px] max-w-96 shadow-2xl overflow-hidden bg-slate-800"
   >
     <!-- Banner part -->
     <div>
@@ -24,7 +24,7 @@
       <!-- Dowload Cv -->
       <div class="text-center py-4 mb-20">
         <a
-          class="py-2 px-4 border-2 border-blue-700 rounded-full"
+          class="py-2 px-4 border-2 border-orange-700 rounded-full hover:text-orange-400 hover:border-orange-900 transition-all duration-500"
           href="#"
           download="Document"
         >
@@ -36,15 +36,15 @@
     <div class="px-4 -mt-20">
       <!-- info -->
       <div
-        class="flex flex-col md:flex-row md:flex-wrap lg:justify-around gap-2 text-sm"
+        class="flex flex-col gap-2 mt-24 text-sm font-secFont"
       >
-        <div class="flex items-center lg:-ml-2">
+        <div class="flex items-center">
           <img
             class="w-8 h-8 md:w-9 md:h-9"
             src="../assets/flag.webp"
             alt="flag"
           />
-          <p>Brazil</p>
+          <p class="opacity-70 pl-2">Brazil</p>
         </div>
         <div class="flex items-center">
           <img
@@ -52,11 +52,11 @@
             src="../assets/tranlate.webp"
             alt="flag"
           />
-          <p>English / Portugues</p>
+          <p class="opacity-70 pl-2">English / Portugues</p>
         </div>
       </div>
-      <h2 class="font-bold mt-5 text-xl">Caio Marianni</h2>
-      <p class="font-light text-base mb-2 text-gray-500">
+      <h2 class="font-normal mt-5 text-xl">Caio Marianni</h2>
+      <p class="font-secFont font-extralight mb-2 opacity-60">
         Many call me Marianni, but you can call me whatever you like. I am a
         curious 21 year old who always seeks to learn more about the things I
         have contact with, how they work and how to improve them.

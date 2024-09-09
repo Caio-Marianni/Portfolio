@@ -6,7 +6,7 @@ import Navbar from "./components/Navbar.vue";
 </script>
 
 <template>
-  <div class="absolute h-screen w-screen bg-[#0D0A2C]">
+  <div class="absolute h-screen w-screen bg-[#0D0A2C] overflow-hidden">
     <Background />
   </div>
   <div class="absolute h-full">
@@ -21,7 +21,7 @@ import Navbar from "./components/Navbar.vue";
         <PersonalCard />
       </div>
       <!-- Content Place -->
-      <div className="h-auto w-full py-4 px-4 rounded-[20px] border-black border-2 overflow-hidden">
+      <div className="h-auto w-full rounded-[20px] border-black border-2 overflow-hidden">
         <RouterView />
       </div>
     </div>
