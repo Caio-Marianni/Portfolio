@@ -11,17 +11,14 @@
     </div>
     <!-- Icons -->
     <div class="flex justify-evenly flex-wrap gap-3 mb-10">
-      <div class="w-10 h-10 border-2 border-orange-600">
-        <img src="../assets/illustrator.png" alt="" />
+      <div class="flex items-center justify-center w-8 h-8">
+        <img src="../assets/illustrator.webp" alt="" />
       </div>
-      <div class="w-10 h-10 border-2 border-orange-600">
-        <img src="../assets/photo.png" alt="" />
+      <div class="flex items-center justify-center w-8 h-8">
+        <img src="../assets/iconPhotoShop.webp" alt="" />
       </div>
-      <div class="w-10 h-10 border-2 border-orange-600">
-        <img src="../assets/code.png" alt="" />
-      </div>
-      <div class="w-10 h-10 border-2 border-orange-600">
-        <img class="w-10 h-10 object-cover" src="../assets/rekord.png" alt="" />
+      <div class="flex items-center justify-center w-8 h-8">
+        <img src="../assets/iconFigma.webp" alt="" />
       </div>
     </div>
     <!-- final effect -->

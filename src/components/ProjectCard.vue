@@ -21,7 +21,20 @@ export default {
          </div>
         <!-- Info -->
          <div class="flex flex-col md:flex-row-reverse md:text-left gap-4 px-4">
-           <div>nao seioque fazer</div>
+           <div class="flex flex-row flex-wrap gap-2">
+            <div class="h-10 w-10 flex justify-center items-center">
+              <img src="../assets/iconJs.webp" alt="">
+            </div>
+            <div class="h-10 w-10 flex justify-center items-center">
+              <img src="../assets/iconVitejs.webp" alt="">
+            </div>
+            <div class="h-10 w-10 flex justify-center items-center">
+              <img src="../assets/iconVue.webp" alt="">
+            </div>
+            <div class="h-10 w-10 flex justify-center items-center">
+              <img src="../assets/iconTailwind.webp" alt="">
+            </div>
+           </div>
            <p>{{ description }}</p>
          </div>
       </div>

@@ -16,18 +16,24 @@ import Projects from '@/components/Projects.vue';
       <div class="w-full h-3 rounded-full bg-orange-400"></div>
     </div>
     <!-- Icons -->
-    <div class="flex justify-evenly flex-wrap gap-3 mb-10">
-      <div class="w-10 h-10 border-2 border-orange-600">
-        <img src="../assets/illustrator.png" alt="" />
+    <div class="flex justify-evenly flex-wrap gap-3 mt-2 mb-6">
+      <div class="flex items-center justify-center w-8 h-8">
+        <img src="../assets/iconFigma.webp" alt="" />
       </div>
-      <div class="w-10 h-10 border-2 border-orange-600">
-        <img src="../assets/photo.png" alt="" />
+      <div class="flex items-center justify-center w-8 h-8">
+        <img src="../assets/iconVs.webp" alt="" />
       </div>
-      <div class="w-10 h-10 border-2 border-orange-600">
-        <img src="../assets/code.png" alt="" />
+      <div class="flex items-center justify-center w-8 h-8">
+        <img src="../assets/iconJs.webp" alt="" />
       </div>
-      <div class="w-10 h-10 border-2 border-orange-600">
-        <img src="../assets/rekord.png" alt="" />
+      <div class="flex items-center justify-center w-8 h-8">
+        <img src="../assets/iconVitejs.webp" alt="" />
+      </div>
+      <div class="flex items-center justify-center w-8 h-8">
+        <img src="../assets/iconVue.webp" alt="" />
+      </div>
+      <div class="flex items-center justify-center w-8 h-8">
+        <img src="../assets/iconTailWind.webp" alt="" />
       </div>
     </div>
     <!-- final effect -->
