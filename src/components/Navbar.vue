@@ -7,7 +7,7 @@ import { RouterLink } from 'vue-router';
     <div class="relative w-full bg-gray-800 h-[110px] py-5 pl-5 rounded-l-[20px]">
       <h1 class="absolute z-10 text-5xl text-white font-terFont"><RouterLink to="/">Home<span class="text-gray text-2xl font-medium">/</span></RouterLink></h1>
       <ul class="absolute z-10 bottom-4 flex gap-8 text-gray-400 font-mainFont">
-        <li class="hover:text-orange-500 transition-all duration-150"><RouterLink to="programing">programing</RouterLink></li>
+        <li class="hover:text-orange-500 transition-all duration-150"><RouterLink to="/">programing</RouterLink></li>
         <li class="hover:text-orange-500 transition-all duration-150"><RouterLink to="designer">designer</RouterLink></li>
         <li class="hover:text-orange-500 transition-all duration-150"><RouterLink to="dj">dj</RouterLink></li>
       </ul>

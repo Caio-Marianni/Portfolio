@@ -7,7 +7,7 @@ import Navbar from "./components/Navbar.vue";
 
 <template>
   <!-- background -->
-  <div class="absolute h-screen w-screen bg-[#0D0A2C] overflow-hidden">
+  <div class="fixed h-full w-full bg-[#0D0A2C] overflow-hidden">
     <Background />
   </div>
   <!-- Main Content -->
@@ -27,6 +27,7 @@ import Navbar from "./components/Navbar.vue";
         <RouterView />
       </div>
     </div>
+    <!-- Mobile navigation -->
     <div class="absolute top-0 h-screen w-screen md:hidden">
       <PersonalCard/>
     </div>

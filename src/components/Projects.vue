@@ -9,8 +9,8 @@ export default {
         {
           // cover: projectVicorLou,
           cover: "cover",
-          artist: "victor Lou Landing Page",
-          link: "link-www",
+          title: "Victor Lou Landing Page",
+          link: "https://victorlou-landing-page.vercel.app",
           description: "A redesign of the artist's current page. I developed this page to present the artist's latest releases, products and information about future shows and his career.",
           technologies: "ver"
         },
