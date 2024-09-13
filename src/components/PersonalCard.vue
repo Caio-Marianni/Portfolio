@@ -47,7 +47,7 @@ export default {
     <!-- Personal Card -->
     <div
       ref="card"
-      class="absolute md:sticky font-terFont text-white top-40 -left-full md:top-4 pb-4 rounded-[20px] max-w-96 shadow-2xl overflow-hidden bg-gray-800 transition-all duration-300"
+      class="absolute md:sticky font-terFont text-white top-40 -left-full md:top-4 pb-4 rounded-[20px] max-w-96 shadow-2xl overflow-hidden bg-[#141414] transition-all duration-300"
     >
       <!-- top banner part -->
       <div>
@@ -66,12 +66,12 @@ export default {
             src="../assets/profile.webp"
             alt="personal-pic"
           />
-          <img class="w-16 -mt-8" src="../assets/logo.webp" alt="logo" />
+            <img class="w-16 h-16 -mt-8 mb-2" src="../assets/logo2.webp" alt="logo" />
         </div>
         <!-- Dowload Cv -->
         <div class="text-center py-4 mb-20">
           <a
-            class="py-2 px-4 border-2 border-orange-700 rounded-full hover:text-orange-400 hover:border-orange-900 transition-all duration-500"
+            class="py-2 px-4 border-2 border-orange-700 rounded-full hover:text-orange-400 hover:border-orange-800 hover:bg-[#5a5a5a] transition-all duration-500"
             href="#"
             download="Document"
           >

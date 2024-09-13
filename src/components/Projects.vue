@@ -20,7 +20,7 @@ export default {
 };
 </script>
 <template>
-  <div v-for="project in projects" :key="project.id">
+  <div v-for="project in projects" :key="project.id" class="flex gap-10 flex-col w-full">
     <ProjectCard
       :cover="project.cover"
       :title="project.title"

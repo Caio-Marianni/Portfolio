@@ -17,7 +17,7 @@
     />
   </div>
   <!-- Content -->
-  <div class="h-aut0 rounded-b-xl py-16 px-4 text-center font-secFont text-xl bg-gray-100">
+  <div class="h-aut0 rounded-b-xl py-16 px-4 text-center font-secFont text-lg bg-gray-100">
     <p>Sorry for this mess...
       <br>But the work is in progress, and I will share updates here as soon as they are available.s</p>
   </div>

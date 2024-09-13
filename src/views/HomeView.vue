@@ -5,15 +5,15 @@ import Projects from '@/components/Projects.vue';
 <template>
   <!-- Title -->
   <div
-    class="relative flex flex-col justify-center items-center py-4 px-4 pt-4 bg-gray-800 shadow-2xl"
+    class="relative flex flex-col justify-center items-center py-4 px-4 pt-4 bg-[#141414] shadow-2xl"
   >
-    <h2 class="text-center font-mainFont -mb-2 opacity-70 text-orange-200">
+    <h2 class="text-center font-mainFont -mb-2 text-orange-200">
       proficiency
     </h2>
     <div class="flex flex-row items-center w-full">
-      <div class="w-full h-3 rounded-full bg-orange-400"></div>
-      <h1 class="my-3 text-6xl mx-6 font-terFont text-[#ff3c23]">Programing</h1>
-      <div class="w-full h-3 rounded-full bg-orange-400"></div>
+      <div class="w-full h-1 rounded-full bg-orange-400"></div>
+      <h1 class="my-3 text-6xl mx-6 font-terFont text-orange-500">Programing</h1>
+      <div class="w-full h-1 rounded-full bg-orange-400"></div>
     </div>
     <!-- Icons -->
     <div class="flex justify-evenly flex-wrap gap-3 mt-2 mb-6">
@@ -45,9 +45,9 @@ import Projects from '@/components/Projects.vue';
   </div>
   <!-- Content -->
   <div
-    class="h-full pt-10 py-4 px-4 text-center font-secFont text-xl bg-gray-100"
+    class="h-full pt-10 py-4 px-4 text-center font-secFont text-xl bg-gray-200"
   >
-    <p class="opacity-70 text-base">
+    <p class="text-lg mb-10">
       I develop programming solutions that combine design innovation with a
       clean and efficient code structure, always analyzing the best trends in
       current technologies.
