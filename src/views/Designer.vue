@@ -36,7 +36,7 @@
       I create design solutions that shape corporate and personal brand identities using Figma, Photoshop, and Illustrator. My process focuses on translating the essence of a product or brand into compelling visuals that effectively communicate its core message and values.x
     </p>
     <!-- Projects -->
-    <div class="flex flex-col">
+    <div class="flex flex-row flex-wrap gap-10 justify-around">
       <div class="relative flex flex-col items-center justify-center w-auto h-80 rounded-md">
         <div class="h-[90%] flex flex-col rounded-xl overflow-hidden">
           <img class="h-full object-contain" src="../assets/anuncioProject.webp" alt="">

@@ -33,7 +33,7 @@ import Projects from '@/components/Projects.vue';
         <img src="../assets/iconVue.webp" alt="" />
       </div>
       <div class="flex items-center justify-center w-8 h-8">
-        <img src="../assets/iconTailWind.webp" alt="" />
+        <img src="../assets/iconTailwind.webp" alt="" />
       </div>
     </div>
     <!-- final effect -->
